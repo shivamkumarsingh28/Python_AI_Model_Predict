@@ -8,7 +8,7 @@ from fastapi import FastAPI
 # create fastapi app
 app = FastAPI()
 
-pickle_file =open("classifier.pkl","rb")
+pickle_file =open("train_data/classifier.pkl","rb")
 classifier = pickle.load(pickle_file)
 
 @app.get("/api/")
