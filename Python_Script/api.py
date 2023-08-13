@@ -11,9 +11,9 @@ app = FastAPI()
 pickle_file =open("train_data/classifier.pkl","rb")
 classifier = pickle.load(pickle_file)
 
-@app.get("/api/")
+@app.get("/")
 def index():
-   return {"message": "Hello World"}
+   return {"message": "Hello Python Bank Note Check Model"}
 
 @app.get("/api/welcome/{name}")
 def welcome(name:str):
