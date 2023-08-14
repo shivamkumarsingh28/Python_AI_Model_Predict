@@ -1,4 +1,4 @@
-fastapi==0.101.0
-pydantic==2.1.1
+fastapi
+pydantic
 scikit-learn
-uvicorn==0.23.2
+uvicorn
