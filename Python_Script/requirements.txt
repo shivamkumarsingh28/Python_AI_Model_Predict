@@ -1,4 +1,4 @@
 fastapi
 pydantic
-cikit-learn==1.0.2
+scikit-learn==1.0.2
 uvicorn
