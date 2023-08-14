@@ -7,7 +7,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 # Train model is classifier.pkl file load with help of pickle library
-pickle_file =open("train_data/classifier.pkl","rb")
+pickle_file =open("classifier.pkl","rb")
 classifier = pickle.load(pickle_file)
 
 # Index page only simple message print on screen
